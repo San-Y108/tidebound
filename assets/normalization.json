@@ -1,0 +1,51 @@
+[
+  {
+    "source": "exec-95846a04-3644-4c42-a4aa-c01353e9c714.png",
+    "kind": "ocean",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null
+  },
+  {
+    "source": "exec-05af3412-5959-48d9-a5bd-95a95addccbc.png",
+    "kind": "buildings",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "source": "exec-260f64e9-eeda-41c2-b753-53b92e6b13cc.png",
+    "kind": "tile",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "source": "exec-0c911033-0111-4f1e-b279-39ca00a0e2ae.png",
+    "kind": "enemies",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ]
+  }
+]

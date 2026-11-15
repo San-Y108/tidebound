@@ -1,0 +1,195 @@
+
+> tidebound-spire@0.4.0 test
+> node --test tests/*.test.js
+
+shuffle distribution: 24 permutations, chi-square=16.906, range=949–1061
+identity simulation: 10,000 turns, 33915 successful plays
+starter command baseline: damage/turn=13.19, block/turn=4.01 (building output excluded)
+✔ 40 original cards have valid costs, descriptions, schools and reusable artwork (0.992375ms)
+✔ combat begins with ten unique cards, five in hand, fresh counters and retained external battle data (0.220291ms)
+✔ 4-card Fisher–Yates permutation distribution over 24,000 independent seeds (6.205875ms)
+✔ 10,000 legal bot turns conserve identity after every play, discard and draw (350.705417ms)
+✔ same seed and legal input policy replays to the same final hash, independent of Math.random (4.138125ms)
+✔ illegal plays leave every part of state unchanged (0.97675ms)
+✔ self-drawing cards stay in limbo and cannot redraw themselves (0.09525ms)
+✔ turn transitions discard the old hand and reset block/energy without destroying persistent ammo or strength (0.074166ms)
+✔ a trigger cycle stops at the 100-op safety cap and returns the card from limbo (0.1605ms)
+✔ upgrade text, energy costs and executed effect values have one source of truth (0.923041ms)
+✔ damage modifiers apply per hit, ammo is paid once, healing caps at maxHp (0.139709ms)
+✔ enemy armor applies to each hit, then remaining damage consumes enemy block before hull (0.104083ms)
+✔ lethal self damage stops later effects and triggers while finishing the card zone transition (0.101541ms)
+✔ starter greedy bot: measure command damage and block over 1,000 turns (15.850833ms)
+✔ version 4 has a 3x3 independent ship, four building categories and ten unique command cards (0.707667ms)
+✔ placement, movement and stowing preserve identity and are locked during battle (0.593084ms)
+✔ coral and beacon neighborhoods update immediately after rearrangement (0.554791ms)
+✔ expansion spends wood, increases hull and creates independent cells up to 5x5 (0.099042ms)
+✔ departure produces resources exactly once before upkeep and starvation can end a voyage (0.232459ms)
+✔ cannon commands consume ammunition, trigger adjacent weapons and use prior vulnerability (0.598ms)
+✔ bulwark converts block to damage; counters trigger for each incoming hit (0.686667ms)
+✔ mutation structures and commands accumulate erosion; echo duplicates the next command (1.559084ms)
+✔ support command immediately triggers repair and shielding; relics react to exhaust and retain block (0.295459ms)
+✖ three-card rewards allow one selection or skip without duplication (0.656917ms)
+✔ shop purchases are permanent and once-only; removal cost increases and repair is capped (0.303333ms)
+✔ camp consumes one node for either a permanent upgrade or hull repair (0.147375ms)
+✔ boss intents resolve charge, separate hit blocks and persistent hull corrosion (0.186833ms)
+✖ boss relic gates crossroads; continuation works after every boss and ending is optional after node 24 (0.152958ms)
+✔ version 4 saves resume exact card zones and seeded outcomes after actual play and endTurn (0.863333ms)
+✖ a multi-hit attacker stops when killed by the first-hit counter, preserving victory (0.159083ms)
+✖ a legal strategy bot completes all 24 nodes with normal rewards, purchases and commands (1937.675875ms)
+✖ acts have eight nodes with bosses at 8, 16, 24, and no seven-day cutoff (0.696875ms)
+✖ 500 seeds produce connected routes, combat anchors and universally reachable shops/rests (2.658625ms)
+✔ route forks are seeded per node and lane, isolated from combat and rewards (1.023792ms)
+✖ encounters scale linearly and first battle starts at 38 HP / 7 attack (0.330125ms)
+✔ enemy intents are deterministic, diverse and describe per-hit damage correctly (0.380417ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 29
+ℹ fail 7
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2012.661667
+
+✖ failing tests:
+
+test at tests/rules.test.js:20:1
+✖ three-card rewards allow one selection or skip without duplication (0.656917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'combat' !== 'reward'
+  
+      at TestContext.<anonymous> (file://<project>/tests/rules.test.js:20:160)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:831:18)
+      at Test.postRun (node:internal/test_runner/test:1330:19)
+      at Test.run (node:internal/test_runner/test:1258:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'combat',
+    expected: 'reward',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/rules.test.js:24:1
+✖ boss relic gates crossroads; continuation works after every boss and ending is optional after node 24 (0.152958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'combat' !== 'reward'
+  
+      at TestContext.<anonymous> (file://<project>/tests/rules.test.js:24:237)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:831:18)
+      at Test.postRun (node:internal/test_runner/test:1330:19)
+      at Test.run (node:internal/test_runner/test:1258:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'combat',
+    expected: 'reward',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/rules.test.js:32:1
+✖ a multi-hit attacker stops when killed by the first-hit counter, preserving victory (0.159083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 11
+  
+      at TestContext.<anonymous> (file://<project>/tests/rules.test.js:32:327)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:831:18)
+      at Test.postRun (node:internal/test_runner/test:1330:19)
+      at Test.run (node:internal/test_runner/test:1258:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 11,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/rules.test.js:33:1
+✖ a legal strategy bot completes all 24 nodes with normal rewards, purchases and commands (1937.675875ms)
+  AssertionError [ERR_ASSERTION]: [{"seed":0,"node":24,"phase":"crossroads"},{"seed":1,"node":24,"phase":"crossroads"},{"seed":2,"node":24,"phase":"crossroads"},{"seed":3,"node":24,"phase":"crossroads"},{"seed":4,"node":24,"phase":"crossroads"},{"seed":5,"node":24,"phase":"crossroads"},{"seed":6,"node":24,"phase":"crossroads"},{"seed":7,"node":24,"phase":"crossroads"},{"seed":8,"node":24,"phase":"crossroads"},{"seed":9,"node":24,"phase":"crossroads"},{"seed":10,"node":24,"phase":"crossroads"},{"seed":11,"node":24,"phase":"crossroads"},{"seed":12,"node":24,"phase":"crossroads"},{"seed":13,"node":24,"phase":"crossroads"},{"seed":14,"node":24,"phase":"crossroads"},{"seed":15,"node":24,"phase":"crossroads"},{"seed":16,"node":24,"phase":"crossroads"},{"seed":17,"node":24,"phase":"crossroads"},{"seed":18,"node":24,"phase":"crossroads"},{"seed":19,"node":24,"phase":"crossroads"},{"seed":20,"node":24,"phase":"crossroads"},{"seed":21,"node":24,"phase":"crossroads"},{"seed":22,"node":24,"phase":"crossroads"},{"seed":23,"node":24,"phase":"crossroads"},{"seed":24,"node":24,"phase":"crossroads"},{"seed":25,"node":24,"phase":"crossroads"},{"seed":26,"node":24,"phase":"crossroads"},{"seed":27,"node":24,"phase":"crossroads"},{"seed":28,"node":24,"phase":"crossroads"},{"seed":29,"node":24,"phase":"crossroads"}]
+      at TestContext.<anonymous> (file://<project>/tests/rules.test.js:33:283)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:831:18)
+      at Test.postRun (node:internal/test_runner/test:1330:19)
+      at Test.run (node:internal/test_runner/test:1258:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: null,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/voyage.test.js:5:1
+✖ acts have eight nodes with bosses at 8, 16, 24, and no seven-day cutoff (0.696875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  12 !== 8
+  
+      at TestContext.<anonymous> (file://<project>/tests/voyage.test.js:6:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.start (node:internal/test_runner/test:1096:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 12,
+    expected: 8,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/voyage.test.js:20:1
+✖ 500 seeds produce connected routes, combat anchors and universally reachable shops/rests (2.658625ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(options.some(r=>r.type==='shop'))
+  
+      at TestContext.<anonymous> (file://<project>/tests/voyage.test.js:36:30)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:831:18)
+      at Test.postRun (node:internal/test_runner/test:1330:19)
+      at Test.run (node:internal/test_runner/test:1258:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/voyage.test.js:59:1
+✖ encounters scale linearly and first battle starts at 38 HP / 7 attack (0.330125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  24 !== 10
+  
+      at TestContext.<anonymous> (file://<project>/tests/voyage.test.js:65:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:831:18)
+      at Test.postRun (node:internal/test_runner/test:1330:19)
+      at Test.run (node:internal/test_runner/test:1258:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 24,
+    expected: 10,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

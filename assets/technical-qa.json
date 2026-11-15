@@ -1,0 +1,262 @@
+[
+  {
+    "ok": true,
+    "assets": [
+      {
+        "path": "outputs/tidebound/assets/ballista-v2.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 512,
+        "height": 512,
+        "bytes": 252149,
+        "color_count": ">65535",
+        "has_alpha": true,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 169927,
+        "content_bounds": [
+          41,
+          49,
+          471,
+          448
+        ],
+        "problems": []
+      },
+      {
+        "path": "outputs/tidebound/assets/cannon-v2.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 512,
+        "height": 512,
+        "bytes": 226220,
+        "color_count": ">65535",
+        "has_alpha": true,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 176012,
+        "content_bounds": [
+          41,
+          36,
+          471,
+          448
+        ],
+        "problems": []
+      },
+      {
+        "path": "outputs/tidebound/assets/net-v2.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 512,
+        "height": 512,
+        "bytes": 283919,
+        "color_count": ">65535",
+        "has_alpha": true,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 162671,
+        "content_bounds": [
+          50,
+          28,
+          462,
+          448
+        ],
+        "problems": []
+      },
+      {
+        "path": "outputs/tidebound/assets/collector-v2.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 512,
+        "height": 512,
+        "bytes": 233616,
+        "color_count": ">65535",
+        "has_alpha": true,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 177574,
+        "content_bounds": [
+          68,
+          28,
+          444,
+          448
+        ],
+        "problems": []
+      },
+      {
+        "path": "outputs/tidebound/assets/purifier-v2.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 512,
+        "height": 512,
+        "bytes": 285296,
+        "color_count": ">65535",
+        "has_alpha": true,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 150850,
+        "content_bounds": [
+          58,
+          28,
+          454,
+          448
+        ],
+        "problems": []
+      },
+      {
+        "path": "outputs/tidebound/assets/beacon-v2.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 512,
+        "height": 512,
+        "bytes": 182384,
+        "color_count": 58870,
+        "has_alpha": true,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 195726,
+        "content_bounds": [
+          71,
+          28,
+          440,
+          448
+        ],
+        "problems": []
+      },
+      {
+        "path": "outputs/tidebound/assets/coral-v2.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 512,
+        "height": 512,
+        "bytes": 240331,
+        "color_count": ">65535",
+        "has_alpha": true,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 173621,
+        "content_bounds": [
+          63,
+          28,
+          449,
+          448
+        ],
+        "problems": []
+      },
+      {
+        "path": "outputs/tidebound/assets/mast-v2.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 512,
+        "height": 512,
+        "bytes": 188988,
+        "color_count": 49235,
+        "has_alpha": true,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 196136,
+        "content_bounds": [
+          54,
+          28,
+          458,
+          448
+        ],
+        "problems": []
+      }
+    ]
+  },
+  {
+    "ok": true,
+    "assets": [
+      {
+        "path": "outputs/tidebound/assets/leviathan-v2.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 896,
+        "height": 896,
+        "bytes": 663933,
+        "color_count": ">65535",
+        "has_alpha": true,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 547238,
+        "content_bounds": [
+          48,
+          48,
+          848,
+          848
+        ],
+        "problems": []
+      },
+      {
+        "path": "outputs/tidebound/assets/pirate-v2.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 896,
+        "height": 896,
+        "bytes": 674590,
+        "color_count": ">65535",
+        "has_alpha": true,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 532784,
+        "content_bounds": [
+          48,
+          49,
+          848,
+          847
+        ],
+        "problems": []
+      }
+    ]
+  },
+  {
+    "ok": true,
+    "assets": [
+      {
+        "path": "outputs/tidebound/assets/ocean-v2.webp",
+        "format": "WEBP",
+        "mode": "RGB",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 224402,
+        "color_count": 42181,
+        "has_alpha": false,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "content_bounds": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "problems": []
+      }
+    ]
+  },
+  {
+    "ok": true,
+    "assets": [
+      {
+        "path": "outputs/tidebound/assets/tile-v2.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 512,
+        "height": 320,
+        "bytes": 184348,
+        "color_count": 46404,
+        "has_alpha": true,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 96152,
+        "content_bounds": [
+          14,
+          8,
+          505,
+          301
+        ],
+        "problems": []
+      }
+    ]
+  }
+]

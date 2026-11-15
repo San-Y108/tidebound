@@ -1,0 +1,76 @@
+{
+  "capture_date": "2026-11-15",
+  "scope_note": "Retained verbatim text fields and repository metadata transcribed from already returned Agent Reach tool results; this is an evidence subset, not the complete unedited stdout payload. No additional requests were made to create this file.",
+  "x_backend": "opencli",
+  "github_backend": "gh",
+  "items": [
+    {
+      "x_url": "https://x.com/i/status/1890836315043713352",
+      "author": "LesusX",
+      "published_at": "Sat Feb 15 18:51:22 +0000 2025",
+      "text": "A customisable water shader for Godot 4 games! \nThe code is available on GitHub: https://t.co/z9kLAWE8KP\nI also made a short video if you want to check how to use it: https://t.co/Irw2SJepPZ https://t.co/baz4c3qsNi",
+      "has_media": true,
+      "media_posters": ["https://pbs.twimg.com/ext_tw_video_thumb/1890835059101274112/pu/img/oIEVcEJoqILTwBvZ.jpg"],
+      "repository": "https://github.com/LesusX/Water-Shader",
+      "license": "MIT",
+      "readme_excerpt": "This project showcases a **Gerstner wave ocean shader** built in Godot 4.  \nThe shader simulates realistic ocean movement, caustics, foam, and depth-based color blending.",
+      "readme_license_excerpt": "This project is available under the MIT license."
+    },
+    {
+      "x_url": "https://x.com/i/status/1207038737420562433",
+      "author": "nvjob",
+      "published_at": "Tue Dec 17 20:43:55 +0000 2019",
+      "text": "#NVJOB Water Shader - simple and fast 1.4.5. Free Unity Asset.\nhttps://t.co/AuzxvL7AkY\nSimple and fast water shader. Two types of water.\n#shader #unity #opensource #gamedev #indie #Unity3D #Asset #github https://t.co/IkiLahVDOA",
+      "has_media": true,
+      "media_posters": ["https://pbs.twimg.com/media/EMBDVBSX0AAxln2.jpg"],
+      "repository": "https://github.com/nvjob/nvjob-water-shader-simple-and-fast",
+      "license": "MIT",
+      "readme_excerpt": "These shaders do not use tessellation, only normal mapping and parallax.",
+      "readme_license_excerpt": "[MIT License. Clarification of licenses.](https://nvjob.github.io/mit-license)"
+    },
+    {
+      "x_url": "https://x.com/i/status/2088808231904637348",
+      "author": "TokenGremlin",
+      "published_at": "Sun Aug 16 02:01:05 +0000 2026",
+      "text_excerpt": "And the best part: the whole project is open source under MIT, so you can study it, fork it, modify it, or use parts of the architecture in your own experiments.",
+      "repository_link_in_text": "https://t.co/uj9cgVQFZd",
+      "resolved_repository": "https://github.com/amilich/isometric-city",
+      "has_media": true,
+      "media_posters": ["https://pbs.twimg.com/amplify_video_thumb/2088808197465235457/img/D6JqY5XNs9DiiAhA.jpg"],
+      "repository": "https://github.com/amilich/isometric-city",
+      "license": "MIT",
+      "readme_excerpt": "**Isometric Rendering Engine**: Rendering with HTML5 Canvas (`CanvasIsometricGrid`) capable of handling complex depth sorting, layer management, and both image and canvas sprites.",
+      "readme_license_excerpt": "Distributed under the MIT License. See `LICENSE` for more information."
+    },
+    {
+      "x_url": "https://x.com/TokenGremlin/status/2093462768271716749",
+      "author": "TokenGremlin",
+      "published_at": "Fri Aug 28 22:16:33 +0000 2026",
+      "text_excerpt": "I’ve officially open-sourced ABYSSAL. 🌊⚡\n\nABYSSAL is a fully procedural ocean and extreme-weather experience that runs directly in the browser. Waves, volumetric clouds, rain, lightning, hurricanes, waterspouts, rogue waves, and tsunamis are generated in real time using Three.js, WebGL2, and GLSL.",
+      "read_scope": "Original post content was returned as quoted_tweet in the search result for https://x.com/i/status/2094348847543615899.",
+      "repository_link_in_text": "https://t.co/nQru3RpgdC",
+      "resolved_repository": "https://github.com/Token-Gremlin/natural-disasters",
+      "has_media": true,
+      "media_posters": ["https://pbs.twimg.com/amplify_video_thumb/2093462091826888704/img/7klKbdCSRPXoUmVA.jpg"],
+      "repository": "https://github.com/Token-Gremlin/natural-disasters",
+      "license": "MIT",
+      "readme_excerpt": "Foam accumulates and decays over time from surface Jacobian and wave steepness, so whitecaps build where the sea is actually breaking rather than being painted on.",
+      "readme_license_excerpt": "[MIT](LICENSE) — free for any use, including commercially. Attribution is appreciated but not required."
+    },
+    {
+      "x_url": "https://x.com/i/status/2080314576122388677",
+      "author": "chirovisuals",
+      "published_at": "Thu Jul 23 15:30:19 +0000 2026",
+      "text": "I built a new open-source ocean using @threejs, i wanted to give it a little bit more time than the initial version that i published.\n\n- Pure WebGL2 GLSL, Fully procedural with clouds and light control.\n\nYou can find all of the technical details in the repo\n\nSource code :\nhttps://t.co/v99HuZSOoG",
+      "repository_link_in_text": "https://t.co/v99HuZSOoG",
+      "resolved_repository": "https://github.com/achrefelouafi/WaterThreeJS",
+      "has_media": true,
+      "media_posters": ["https://pbs.twimg.com/amplify_video_thumb/2080312159532199936/img/cI17I4mlhJYgwPiA.jpg"],
+      "repository": "https://github.com/achrefelouafi/WaterThreeJS",
+      "license": "MIT",
+      "license_scope": "MIT from Agent Reach's GitHub repository raw.license metadata; no explicit License section in the returned README.",
+      "readme_excerpt": "**contact foam** (rings, wind-stretched *wakes* and splash bursts) from the floating objects, whose positions and velocities are fed into the shader every frame."
+    }
+  ],
+  "media_viewing": "Tweet text and metadata read. Videos not decoded or played. Remote preview opens returned no readable image content, so no claim of having visually inspected the videos."
+}

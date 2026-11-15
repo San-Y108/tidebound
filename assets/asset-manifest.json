@@ -1,0 +1,310 @@
+{
+  "version": "0.2",
+  "reviewed_on": "2026-11-15",
+  "runtime_assets": [
+    {
+      "file": "ballista-v2.png",
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen",
+        "family": "buildings",
+        "original": "buildings-source-v2.png",
+        "prompts": "prompts.json"
+      },
+      "rights_note": "Generated for this project; no external artwork copied. Reference repositories were consulted for rendering concepts only.",
+      "size": [
+        512,
+        512
+      ],
+      "real_alpha": true,
+      "pivot": [
+        0.5,
+        0.875
+      ],
+      "collision": "code-owned grid diamond, not sprite alpha",
+      "technical_checks_passed": true,
+      "in_engine_review": "desktop contact, silhouette, consistent light, transparent edges and native-size rendering reviewed",
+      "bytes": 252149
+    },
+    {
+      "file": "cannon-v2.png",
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen",
+        "family": "buildings",
+        "original": "buildings-source-v2.png",
+        "prompts": "prompts.json"
+      },
+      "rights_note": "Generated for this project; no external artwork copied. Reference repositories were consulted for rendering concepts only.",
+      "size": [
+        512,
+        512
+      ],
+      "real_alpha": true,
+      "pivot": [
+        0.5,
+        0.875
+      ],
+      "collision": "code-owned grid diamond, not sprite alpha",
+      "technical_checks_passed": true,
+      "in_engine_review": "desktop contact, silhouette, consistent light, transparent edges and native-size rendering reviewed",
+      "bytes": 226220
+    },
+    {
+      "file": "net-v2.png",
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen",
+        "family": "buildings",
+        "original": "buildings-source-v2.png",
+        "prompts": "prompts.json"
+      },
+      "rights_note": "Generated for this project; no external artwork copied. Reference repositories were consulted for rendering concepts only.",
+      "size": [
+        512,
+        512
+      ],
+      "real_alpha": true,
+      "pivot": [
+        0.5,
+        0.875
+      ],
+      "collision": "code-owned grid diamond, not sprite alpha",
+      "technical_checks_passed": true,
+      "in_engine_review": "desktop contact, silhouette, consistent light, transparent edges and native-size rendering reviewed",
+      "bytes": 283919
+    },
+    {
+      "file": "collector-v2.png",
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen",
+        "family": "buildings",
+        "original": "buildings-source-v2.png",
+        "prompts": "prompts.json"
+      },
+      "rights_note": "Generated for this project; no external artwork copied. Reference repositories were consulted for rendering concepts only.",
+      "size": [
+        512,
+        512
+      ],
+      "real_alpha": true,
+      "pivot": [
+        0.5,
+        0.875
+      ],
+      "collision": "code-owned grid diamond, not sprite alpha",
+      "technical_checks_passed": true,
+      "in_engine_review": "desktop contact, silhouette, consistent light, transparent edges and native-size rendering reviewed",
+      "bytes": 233616
+    },
+    {
+      "file": "purifier-v2.png",
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen",
+        "family": "buildings",
+        "original": "buildings-source-v2.png",
+        "prompts": "prompts.json"
+      },
+      "rights_note": "Generated for this project; no external artwork copied. Reference repositories were consulted for rendering concepts only.",
+      "size": [
+        512,
+        512
+      ],
+      "real_alpha": true,
+      "pivot": [
+        0.5,
+        0.875
+      ],
+      "collision": "code-owned grid diamond, not sprite alpha",
+      "technical_checks_passed": true,
+      "in_engine_review": "desktop contact, silhouette, consistent light, transparent edges and native-size rendering reviewed",
+      "bytes": 285296
+    },
+    {
+      "file": "beacon-v2.png",
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen",
+        "family": "buildings",
+        "original": "buildings-source-v2.png",
+        "prompts": "prompts.json"
+      },
+      "rights_note": "Generated for this project; no external artwork copied. Reference repositories were consulted for rendering concepts only.",
+      "size": [
+        512,
+        512
+      ],
+      "real_alpha": true,
+      "pivot": [
+        0.5,
+        0.875
+      ],
+      "collision": "code-owned grid diamond, not sprite alpha",
+      "technical_checks_passed": true,
+      "in_engine_review": "desktop contact, silhouette, consistent light, transparent edges and native-size rendering reviewed",
+      "bytes": 182384
+    },
+    {
+      "file": "coral-v2.png",
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen",
+        "family": "buildings",
+        "original": "buildings-source-v2.png",
+        "prompts": "prompts.json"
+      },
+      "rights_note": "Generated for this project; no external artwork copied. Reference repositories were consulted for rendering concepts only.",
+      "size": [
+        512,
+        512
+      ],
+      "real_alpha": true,
+      "pivot": [
+        0.5,
+        0.875
+      ],
+      "collision": "code-owned grid diamond, not sprite alpha",
+      "technical_checks_passed": true,
+      "in_engine_review": "desktop contact, silhouette, consistent light, transparent edges and native-size rendering reviewed",
+      "bytes": 240331
+    },
+    {
+      "file": "mast-v2.png",
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen",
+        "family": "buildings",
+        "original": "buildings-source-v2.png",
+        "prompts": "prompts.json"
+      },
+      "rights_note": "Generated for this project; no external artwork copied. Reference repositories were consulted for rendering concepts only.",
+      "size": [
+        512,
+        512
+      ],
+      "real_alpha": true,
+      "pivot": [
+        0.5,
+        0.875
+      ],
+      "collision": "code-owned grid diamond, not sprite alpha",
+      "technical_checks_passed": true,
+      "in_engine_review": "desktop contact, silhouette, consistent light, transparent edges and native-size rendering reviewed",
+      "bytes": 188988
+    },
+    {
+      "file": "leviathan-v2.png",
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen",
+        "family": "enemies",
+        "original": "enemies-source-v2.png",
+        "prompts": "prompts.json"
+      },
+      "rights_note": "Generated for this project; no external artwork copied. Reference repositories were consulted for rendering concepts only.",
+      "size": [
+        896,
+        896
+      ],
+      "real_alpha": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "collision": "none",
+      "technical_checks_passed": true,
+      "in_engine_review": "desktop contact, silhouette, consistent light, transparent edges and native-size rendering reviewed",
+      "bytes": 663933
+    },
+    {
+      "file": "pirate-v2.png",
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen",
+        "family": "enemies",
+        "original": "enemies-source-v2.png",
+        "prompts": "prompts.json"
+      },
+      "rights_note": "Generated for this project; no external artwork copied. Reference repositories were consulted for rendering concepts only.",
+      "size": [
+        896,
+        896
+      ],
+      "real_alpha": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "collision": "none",
+      "technical_checks_passed": true,
+      "in_engine_review": "desktop contact, silhouette, consistent light, transparent edges and native-size rendering reviewed",
+      "bytes": 674590
+    },
+    {
+      "file": "ocean-v2.webp",
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen",
+        "family": "ocean",
+        "original": "ocean-source-v2.png",
+        "prompts": "prompts.json"
+      },
+      "rights_note": "Generated for this project; no external artwork copied. Reference repositories were consulted for rendering concepts only.",
+      "size": [
+        1536,
+        1024
+      ],
+      "real_alpha": false,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "collision": "none",
+      "technical_checks_passed": true,
+      "in_engine_review": "desktop contact, silhouette, consistent light, transparent edges and native-size rendering reviewed",
+      "bytes": 224402
+    },
+    {
+      "file": "tile-v2.png",
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen",
+        "family": "tile",
+        "original": "tile-source-v2.png",
+        "prompts": "prompts.json"
+      },
+      "rights_note": "Generated for this project; no external artwork copied. Reference repositories were consulted for rendering concepts only.",
+      "size": [
+        512,
+        320
+      ],
+      "real_alpha": true,
+      "pivot": [
+        0.5,
+        0.436
+      ],
+      "collision": "code-owned grid diamond, not sprite alpha",
+      "technical_checks_passed": true,
+      "in_engine_review": "desktop contact, silhouette, consistent light, transparent edges and native-size rendering reviewed",
+      "bytes": 184348
+    }
+  ],
+  "texture_budget": "20.8 MiB decoded base-level RGBA for the runtime sprites and ocean, excluding engine/font textures and mipmap overhead; source atlases are not loaded.",
+  "references": [
+    {
+      "url": "https://github.com/WuotanStudios/boujie_water_shader_",
+      "read_with": "agent-reach github read",
+      "license": "MIT",
+      "usage": "concept reference only"
+    },
+    {
+      "url": "https://github.com/LesusX/Water-Shader",
+      "read_with": "agent-reach github read",
+      "license": "MIT",
+      "usage": "concept reference only"
+    }
+  ],
+  "x_access": "agent-reach twitter search returned NEED_LOGIN; no tweet bodies retrieved and no further X requests made."
+}
