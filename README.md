@@ -52,3 +52,9 @@ npm run test:visual
 ### 上传时的已知测试状态
 
 构建通过；规则测试 36 项中 29 项通过、7 项失败。详细输出见 [TEST-BASELINE.txt](TEST-BASELINE.txt)。这些失败作为当前协作基线保留，CI 会如实显示失败，不应将本版本视为全部测试通过。
+
+## 在线试玩
+
+公开试玩地址：https://san-y108.github.io/tidebound/
+
+每次向 main 推送后，Deploy playable game 工作流会构建并更新 GitHub Pages。网页版存档保存在每位玩家自己的浏览器，不共享本机存档。
